@@ -134,6 +134,7 @@ nav {
     top: 1rem;
     right: 1rem;
     display: none;
+    cursor: pointer;
   }
 
   .container-sections {
@@ -214,8 +215,25 @@ nav {
 
   }
 
-  .trials {
+  .about .box-img {
+    display: flex;
+    justify-content: center;
   }
+
+  .about .box-img img {
+    height: 400px;
+  }
+
+  .about .title-about {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  }
+
+  .trials {
+    background-color:#F4F1DE;
+  }
+
 
   .card {
     position: relative;
